@@ -3,10 +3,10 @@ import { fileURLToPath, URL } from "node:url"
 
 import { defineConfig } from "vite"
 import vue from "@vitejs/plugin-vue"
-
+import Unocss from 'unocss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), Unocss()],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
@@ -18,7 +18,7 @@ export default defineConfig({
     transformMode: {
       web: [/.[tj]sx$/],
     },
-    include:[
+    include: [
       "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"
     ]
   },
