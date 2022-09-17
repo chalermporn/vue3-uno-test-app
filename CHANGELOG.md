@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.1 (2022-09-17)
 
-
 ### Features
 
 * happy-dom 8f5e377
