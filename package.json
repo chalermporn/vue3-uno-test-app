@@ -1,6 +1,6 @@
 {
   "name": "vue3-uno-test-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
