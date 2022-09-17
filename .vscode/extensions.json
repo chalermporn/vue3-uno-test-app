@@ -1,3 +1,9 @@
 {
-  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
+  "recommendations": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "wix.vscode-import-cost",
+    "luanpotter.dart-import",
+    "amatiasq.sort-imports"
+  ]
 }

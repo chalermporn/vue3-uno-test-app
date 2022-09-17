@@ -16,6 +16,7 @@ specifiers:
   eslint-plugin-cypress: ^2.12.1
   eslint-plugin-vue: ^9.3.0
   happy-dom: ^6.0.4
+  import-sort-parser-typescript: ^6.0.0
   jsdom: ^20.0.0
   npm-run-all: ^4.1.5
   pinia: ^2.0.21
@@ -50,6 +51,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.23.1
   eslint-plugin-vue: 9.5.1_eslint@8.23.1
   happy-dom: 6.0.4
+  import-sort-parser-typescript: 6.0.0
   jsdom: 20.0.0
   npm-run-all: 4.1.5
   standard-version: 9.5.0
@@ -3204,6 +3206,12 @@ packages:
       resolve-from: 4.0.0
     dev: true
 
+  /import-sort-parser-typescript/6.0.0:
+    resolution: {integrity: sha512-pgxnr3I156DonupQriNsgDb2zJN9TxrqCCIN1rwT/6SDO1rkJb+a0fjqshCjlgacTSA92oPAp1eAwmQUeZi3dw==}
+    dependencies:
+      typescript: 3.9.10
+    dev: true
+
   /imurmurhash/0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
@@ -5000,6 +5008,12 @@ packages:
 
   /typedarray/0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
+    dev: true
+
+  /typescript/3.9.10:
+    resolution: {integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /typescript/4.7.4:
