@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/api',
       name: 'api',
       component: () => import('../views/ApiView.vue')
+    },
+    {
+      path: '/alert',
+      name: 'alert',
+      component: () => import('../views/AlertView.vue')
     }
   ]
 })
