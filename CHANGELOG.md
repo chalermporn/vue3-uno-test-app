@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.4...v0.0.5) (2022-09-18)
+
+
+### Features
+
+* view-design-plus ([e862e0a](https://github.com/chalermporn/vue3-uno-test-app/commit/e862e0a1dbe36b5167763e10c48a08209e34e531))
+
 ### [0.0.4](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.3...v0.0.4) (2022-09-17)
 
 
