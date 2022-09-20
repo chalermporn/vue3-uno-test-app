@@ -31,6 +31,12 @@ const router = createRouter({
       path: '/alert',
       name: 'alert',
       component: () => import('../views/AlertView.vue')
+
+    },
+    {
+      path: '/handsontable',
+      name: 'handsontable',
+      component: () => import('../views/HandsontableView.vue')
     }
   ]
 })
