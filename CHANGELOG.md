@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.5...v0.0.6) (2022-09-20)
+
+
+### Features
+
+* **libs:** handsontable ([c2f7cc3](https://github.com/chalermporn/vue3-uno-test-app/commit/c2f7cc3b80f70d3c5cc2d32a99fb9bddd02732a2))
+
 ### [0.0.5](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.4...v0.0.5) (2022-09-18)
 
 
