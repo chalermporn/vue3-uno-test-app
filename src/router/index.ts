@@ -37,6 +37,24 @@ const router = createRouter({
       path: '/handsontable',
       name: 'handsontable',
       component: () => import('../views/HandsontableView.vue')
+    },
+    {
+      path: '/mone',
+      name: 'mone',
+      component: () => import('../views/MOneView.vue')
+    },
+    {
+      path: '/mtwo',
+      name: 'mtwo',
+      component: () => import('../views/MTwoView.vue')
+    },
+    {
+      path: '/mtwo/:data',
+      name: 'mtwo2',
+      meta: {
+        test: "other config"
+      },
+      component: () => import('../views/MTwoView.vue')
     }
   ]
 })

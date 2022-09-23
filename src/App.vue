@@ -17,6 +17,9 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/api">Api</RouterLink>
         <RouterLink to="/alert">Alert</RouterLink>
         <RouterLink to="/handsontable">handsontable</RouterLink>
+        <RouterLink to="/mone">mone</RouterLink>
+        <RouterLink to="/mtwo">mtwo</RouterLink>
+        <RouterLink to="/mtwo/123?age=10">mtwo2</RouterLink>
       </nav>
     </div>
   </header>
