@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.6...v0.0.7) (2022-09-23)
+
+
+### Features
+
+* sample router  vue-router4 ([cf5660b](https://github.com/chalermporn/vue3-uno-test-app/commit/cf5660ba5f2441b1df9022f8a1603bb5cbb3d60f))
+
 ### [0.0.6](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.5...v0.0.6) (2022-09-20)
 
 
