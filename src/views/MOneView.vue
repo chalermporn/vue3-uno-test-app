@@ -17,7 +17,7 @@ function toTwo() {
       age: 10
     },
     state: {
-      name: 'bird'
+      test: 'bird'
     }
   })
 }
@@ -30,5 +30,5 @@ function toTwo() {
     </button>
   </div>
 </template>
-  
-  
+    
+    
