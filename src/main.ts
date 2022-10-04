@@ -15,7 +15,6 @@ import './assets/main.css'
 // "utilities" layer will have the highest priority
 import 'uno:utilities.css'
 
-import formatHelper from "./helpers/formatHelper"
 
 const app = createApp(App)
 // app.config.globalProperties.$filters = formatHelper
@@ -23,8 +22,5 @@ const app = createApp(App)
 app.use(createPinia())
   .use(router)
   .use(ViewUiPlus)
-  .config.globalProperties.$filters = {
-  ...formatHelper
-}
 
 app.mount('#app')

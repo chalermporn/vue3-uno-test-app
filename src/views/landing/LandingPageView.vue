@@ -1,8 +1,21 @@
 <script setup lang="ts">
 import KtbBtn from '@/components/button/KtbBtn.component.vue'
-import formatHelper from '@/helpers/formatHelper'
-// import { inject } from 'vue'
-// const $filters = inject('$filters')
+import { price2, currencyUSD } from '@/helpers/formatHelper'
+import { reactive } from 'vue'
+
+const num: number = 4400.333
+
+const author = reactive({
+  num2: 0
+})
+
+setTimeout(() => {
+  author.num2 = num + 3
+
+  console.log("ok")
+}, 1000)
+
+
 function onClick() {
   alert("ddd")
 } 
@@ -17,10 +30,10 @@ function onClick() {
       ddd
     </button>
     <button class="bg-blue-400 text-blue-100 py-2 px-4 rounded-lg hover:bg-blue-800">
-      <p>{{ formatHelper.currencyUSD(200) }}</p>
+      <p>{{ currencyUSD(num) }}</p>
     </button>
     <button class="bg-blue-400 text-blue-100 py-2 px-4 rounded-lg hover:bg-blue-800">
-      <p>{{ $filters.price(400) }}</p>
+      <p>{{ price2(author.num2) }}</p>
     </button>
     <KtbBtn @click="onClick">KTB</KtbBtn>
   </div>

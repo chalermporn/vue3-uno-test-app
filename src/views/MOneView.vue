@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import router from '@/router'
-import { useRoute } from 'vue-router'
+import {useRoute} from 'vue-router'
+
 const route = useRoute()
 console.log("router MOne: ", router)
 

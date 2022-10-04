@@ -1,17 +1,14 @@
 /// <reference types="vitest" />
-import { fileURLToPath, URL } from "node:url"
+import {fileURLToPath, URL} from "node:url"
 
 import vue from "@vitejs/plugin-vue"
 import Unocss from 'unocss/vite'
-import { defineConfig } from "vite"
+import {defineConfig} from "vite"
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(
-  ), Unocss()],
+  plugins: [vue(), Unocss()],
   resolve: {
-    alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url)),
-    },
+    alias: {"@": fileURLToPath(new URL("./src", import.meta.url)),},
   },
   test: {
     globals: true,
