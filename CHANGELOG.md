@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.7...v0.0.8) (2022-10-10)
+
+
+### Features
+
+* layout and fillter and router ([e8ea58e](https://github.com/chalermporn/vue3-uno-test-app/commit/e8ea58e83d711dc891381be11c7c47f3ed28826a))
+* reactive ([c04e31e](https://github.com/chalermporn/vue3-uno-test-app/commit/c04e31eca557e4fa8a7bf47d3e55ea5f8ed213a9))
+* reactive demo ([29aa0af](https://github.com/chalermporn/vue3-uno-test-app/commit/29aa0afa3396e474b43d4b32d368b45c2f4b9120))
+
+
+### Bug Fixes
+
+* update ([3bf9ab3](https://github.com/chalermporn/vue3-uno-test-app/commit/3bf9ab32ec8568c1d088e90f8ae376f7a3bfd9dc))
+
 ### [0.0.7](https://github.com/chalermporn/vue3-uno-test-app/compare/v0.0.6...v0.0.7) (2022-09-23)
 
 
