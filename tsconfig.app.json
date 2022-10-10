@@ -9,6 +9,8 @@
     "src/**/__tests__/*"
   ],
   "compilerOptions": {
+    // "noImplicitThis": false,
+    // "strict": true,
     "composite": true,
     "baseUrl": ".",
     "allowJs": true,

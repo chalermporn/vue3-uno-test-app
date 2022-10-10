@@ -17,6 +17,7 @@ import 'uno:utilities.css'
 
 
 const app = createApp(App)
+// app.config.globalProperties.$filters = formatHelper
 
 app.use(createPinia())
   .use(router)

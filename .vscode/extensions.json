@@ -4,6 +4,10 @@
     "vue.vscode-typescript-vue-plugin",
     "wix.vscode-import-cost",
     "luanpotter.dart-import",
-    "amatiasq.sort-imports"
+    "amatiasq.sort-imports",
+    "antfu.unocss",
+    "antfu.iconify",
+    "antfu.vite",
+    "antfu.goto-alias"
   ]
 }
