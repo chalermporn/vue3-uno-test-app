@@ -2,21 +2,27 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
-  presetUno,
-  presetWind,
+  presetUno
 } from 'unocss'
 
+import { KtbBtn } from './unocss-rules/rule.mjs'
+
 export default defineConfig({
-  rules: [
-    ['custom-rule', { color: 'red' }]
-  ],
-  shortcuts: {
-    'custom-shortcut': 'text-lg text-orange hover:text-teal'
+  theme: {
+
   },
+  rules: [
+    KtbBtn
+  ],
+  shortcuts: [
+    {
+      'active': 'text-white',
+    },
+    [/^btn-(.*)$/, ([, c]) => `bg-${c}-400 text-${c}-100 py-2 px-4 rounded-lg hover:bg-${c}-800`],
+  ],
+
   presets: [
     presetUno(),
-    presetIcons(),
-    presetWind(),
     presetAttributify(),
     presetIcons({
       scale: 1.2,

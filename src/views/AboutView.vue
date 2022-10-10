@@ -1,7 +1,9 @@
 <template>
-  <div class="about">
-    <h1 class="custom-shortcut">This is an about page</h1>
-  </div>
+  <transition name="slide-left">
+    <div class="about">
+      <h1 class="custom-shortcut">This is an about page</h1>
+    </div>
+  </transition>
 </template>
 
 <style>
